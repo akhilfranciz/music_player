@@ -23,22 +23,40 @@ let curr_track = document.createElement('audio');
 let track_list = [
   {
     name: "Darkside",
-    artist: "Broke For Free",
+    artist: "Unknown",
     image: "https://upload.wikimedia.org/wikipedia/en/b/ba/Darkside_by_Alan_Walker.png",
     path: "./output/Darkside.mp3"
   },
   {
     name: "Don’t Let Me Down",
-    artist: "Tours",
+    artist: "Unknown",
     image: "https://www.billboard.com/wp-content/uploads/media/chainsmokers-Dont-Let-Me-Down-2016-billboard-650.jpg?w=650&h=430&crop=1",
     path: "./output/Dont_Let_Me_Do.mp3"
   },
-  // {
-  //   name: "Shipping Lanes",
-  //   artist: "Chad Crouch",
-  //   image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-  //   path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
-  // },
+  {
+    name: "Something Just Like This",
+    artist: "Unknown",
+    image: "https://i1.sndcdn.com/artworks-000220086310-6z7vf7-t500x500.jpg",
+    path: "./output/123.mp3"
+  },
+  {
+    name: "Hymn For The Weekend",
+    artist: "Unknown",
+    image: "https://api.time.com/wp-content/uploads/2016/01/chris-martin.jpg",
+    path: "./output/hymn.mp3"
+  },
+  {
+    name: "Love The Way You Lie",
+    artist: "Unknown",
+    image: "https://virtualpiano.net/wp-content/uploads/2020/08/Love-The-Way-You-Lie-%E2%80%93-Eminem-feat-Rihanna-Virtual-Piano.jpg",
+    path: "./output/eminem.mp3"
+  },
+  {
+    name: "Don’t Let Me Down",
+    artist: "Unknown",
+    image: "https://www.billboard.com/wp-content/uploads/media/chainsmokers-Dont-Let-Me-Down-2016-billboard-650.jpg?w=650&h=430&crop=1",
+    path: "./output/Dont_Let_Me_Do.mp3"
+  },
 ];
 
 function random_bg_color() {
